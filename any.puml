@@ -1,0 +1,14 @@
+@startuml
+title Cas d'utilisation - Portfolio d'Adnane
+' Portfolio web développé avec Laravel pour présenter les compétences et projets d'Adnane
+
+actor Visiteur
+
+' Cas d'utilisation principaux
+Visiteur --> (Consulter la page Accueil)
+Visiteur --> (Consulter la section A propos)
+Visiteur --> (Consulter la section Compétences)
+Visiteur --> (Consulter la section Projets)
+Visiteur --> (Envoyer un message via le formulaire de Contact)
+
+@enduml
