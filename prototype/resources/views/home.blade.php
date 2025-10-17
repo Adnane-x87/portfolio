@@ -1,10 +1,22 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="max-w-md mx-auto bg-white rounded-xl shadow-md p-6">
-    <h2 class="text-2xl font-bold mb-2">{{ $developer['name'] }}</h2>
-    <p class="text-blue-500 mb-2">{{ $developer['role'] }}</p>
-    <p class="mb-4">{{ $developer['bio'] }}</p>
-    <p class="text-gray-600"><strong>Email:</strong> {{ $developer['email'] }}</p>
+<div class="container py-5 my-5">
+    <div class="card shadow-lg mx-auto border-0 bg-white" style="max-width: 28rem;">
+        <div class="card-body p-5">
+            
+            <h2 class="card-title h2 fw-bolder mb-2 text-dark">{{ $developer['name'] }}</h2>
+            
+            <p class="text-primary fw-semibold mb-3 border-bottom pb-2 border-opacity-25">{{ $developer['role'] }}</p>
+            
+            <p class="mb-4 text-secondary">{{ $developer['bio'] }}</p>
+            
+            <div class="pt-3 border-top">
+                <p class="text-muted small mb-0">
+                    <strong class="text-dark">Email:</strong> {{ $developer['email'] }}
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
 @endsection
