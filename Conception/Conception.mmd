@@ -1,0 +1,44 @@
+flowchart TD
+  %% Navbar
+  subgraph NAV["Navbar"]
+    direction LR
+    HomeBtn[Home] --- ProjectsBtn[Projects] --- ContactBtn[Contact] --- AboutBtn[About]
+  end
+
+  %% Sections in single page
+  HomeSection[Home Section]
+  ProjectsSection[Projects Section]
+  AboutSection[About Section]
+  SkillsSection[Skills Section]
+  Bio[Biography / Experience Details]
+  ContactSection[Contact Section]
+
+  %% Projects details
+  ProjectDetails[Project Details]
+  Desc[Description: Features, Tools, Screenshots]
+  GitHubLink[GitHub Repository]
+
+  %% CTA
+  CTA[Call to Action: View Projects]
+
+  %% Navbar connections
+  HomeBtn --> HomeSection
+  ProjectsBtn --> ProjectsSection
+  AboutBtn --> AboutSection
+  ContactBtn --> ContactSection
+
+  %% Home structure
+  HomeSection --> CTA
+  CTA --> ProjectsSection
+
+  %% Projects structure
+  ProjectsSection --> ProjectDetails
+  ProjectDetails --> Desc
+  ProjectDetails --> GitHubLink
+
+  %% About structure
+  AboutSection --> SkillsSection
+  SkillsSection --> Bio
+
+  %% Contact
+  ContactSection --> FormSubmitted[Form Submitted]
