@@ -9,6 +9,4 @@ Visiteur --> (Consulter la page Accueil)
 Visiteur --> (Consulter la section A propos)
 Visiteur --> (Consulter la section Compétences)
 Visiteur --> (Consulter la section Projets)
-Visiteur --> (Envoyer un message via le formulaire de Contact)
-
 @enduml

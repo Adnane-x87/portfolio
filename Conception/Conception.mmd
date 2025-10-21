@@ -6,12 +6,10 @@ flowchart TD
   end
 
   %% Sections in single page
-  HomeSection[Home Section]
+  HomeSection["Home Section: name and role"]
   ProjectsSection[Projects Section]
   AboutSection[About Section]
-  SkillsSection[Skills Section]
   Bio[Biography / Experience Details]
-  ContactSection[Contact Section]
 
   %% Projects details
   ProjectDetails[Project Details]
@@ -25,7 +23,7 @@ flowchart TD
   HomeBtn --> HomeSection
   ProjectsBtn --> ProjectsSection
   AboutBtn --> AboutSection
-  ContactBtn --> ContactSection
+  ContactBtn 
 
   %% Home structure
   HomeSection --> CTA
@@ -37,8 +35,4 @@ flowchart TD
   ProjectDetails --> GitHubLink
 
   %% About structure
-  AboutSection --> SkillsSection
-  SkillsSection --> Bio
-
-  %% Contact
-  ContactSection --> FormSubmitted[Form Submitted]
+  AboutSection --> Bio
