@@ -40,12 +40,12 @@ by Adnane Kesksu
 # Exemple de l'existant
 
 <div style="display: flex; gap: 20px; justify-content: center;">
-  <img src="./images/exmple1.png" style="max-width: 45%; height: auto;" />
-  <img src="./images/exmple2.png" style="max-width: 45%; height: auto;" />
+  <img src="images/exmple1.png" style="max-width: 45%; height: auto;" />
+  <img src="images/exmple2.png" style="max-width: 45%; height: auto;" />
 </div>
 
 <div style="text-align: center; margin-top: 20px;">
-  <img src="./images/exmple3.png" style="max-width: 70%; height: auto;" />
+  <img src="images/exmple3.png" style="max-width: 70%; height: auto;" />
 </div>
 
 ---
@@ -53,7 +53,7 @@ by Adnane Kesksu
 # Diagramme de cas d'utilisation
 
 <div style="text-align: center;">
-  <img src="./images/diagramme.png" style="max-width: 80%; height: auto;" />
+  <img src="images/diagramme.png" style="max-width: 80%; height: auto;" />
 </div>
 
 ---
@@ -61,5 +61,5 @@ by Adnane Kesksu
 # Conception
 
 <div style="text-align: center;">
-  <img src="./images/Conception.png" style="max-width: 60%; height: auto;" />
+  <img src="images/Conception.png" style="max-width: 60%; height: auto;" />
 </div>
