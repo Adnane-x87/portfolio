@@ -78,3 +78,7 @@ by Adnane Kesksu
 
 #  Maquette
 
+<div style="text-align: center;">
+  <img src="images/Maquette.png" style="max-width: 60%; height: auto;" />
+</div>
+
