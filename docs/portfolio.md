@@ -63,3 +63,18 @@ by Adnane Kesksu
 <div style="text-align: center;">
   <img src="images/Conception.png" style="max-width: 60%; height: auto;" />
 </div>
+
+
+---
+
+# Diagramme de classe
+
+<div style="text-align:center;">
+  <img src="images/classDG.png"
+       style="max-height:70vh; width:auto; display:block; margin:0 auto; object-fit:contain;" />
+</div>
+
+---
+
+#  Maquette
+
